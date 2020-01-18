@@ -12,7 +12,7 @@
         <Rectangle Height="500" VerticalAlignment="Center" >
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#ff00cc" />
+                    <GradientStop Color="#ffffff" />
                     <GradientStop Color="#333399" Offset="1" />
                 </LinearGradientBrush>
 
@@ -34,6 +34,6 @@
             <Button VerticalAlignment="Top" Content="Login"  Margin="40,229,40,0" Height="37" Effect="{DynamicResource MaterialDesignShadowDepth2}" Background="#FF7C38F5" />
         </Grid>
 
-        <Button  Background="White" Foreground="#FF391678" Content="Signup" Margin="76,442,76,10" Effect="{DynamicResource MaterialDesignShadowDepth2}" BorderBrush="#FF391678" />
+        <Button  Background="White" Foreground="#FF391678" Content="Signup" Margin="76,437,76,15" Effect="{DynamicResource MaterialDesignShadowDepth2}" BorderBrush="#FF391678" />
     </Grid>
 </Window>
